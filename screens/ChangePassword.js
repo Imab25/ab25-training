@@ -22,7 +22,7 @@ const ChangePassword = ({ navigation }) => {
                     <TextInput placeholder=" " />
                 </View>
             </View>
-            <TouchableOpacity onPress={() => navigation.navigate("front")}>
+            <TouchableOpacity onPress={() => navigation.navigate("")}>
                 <View style={styles.button}>
                     <Text style={styles.text1}>Change Password</Text>
                 </View>

@@ -23,7 +23,7 @@ const MyProfileScreen = ({ navigation }) => {
                         <Text style={{ fontSize: 13, fontWeight: "bold", color: "#294b6f", marginTop: 5, }}>Dezavu11@gmail.com</Text>
                     </View>
                 </View>
-                <TouchableOpacity onPress={() => navigation.navigate("New")}>
+                <TouchableOpacity onPress={() => navigation.navigate("")}>
                     <View style={styles.button}>
                         <Text style={styles.texts}>Edit Profile</Text>
                     </View>
